@@ -51,7 +51,6 @@ void TIM1_Setup(void);
 
 int main(void)
 {
- 
   //TIM3 - for ADC trig
   //PB.13 - LED
   //PA.07 - ADC1 input (2.5V max, Uref = 3.0V)
@@ -79,6 +78,7 @@ int main(void)
   TIM1_Setup();
   ADC_Setup();
   EXTINT_Setup(); 
+  DBGMCU_Config(DBGMCU_TIM3_STOP, ENABLE);
   /* Infinite loop */
   while (1)
   {

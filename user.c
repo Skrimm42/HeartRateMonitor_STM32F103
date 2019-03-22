@@ -13,8 +13,6 @@ uint32_t Timeout_cntr;
 
 void userapp(void)
 {
-  static bool ledtoggle;
-  bool wk_up;
   static uint16_t cnt;
   
   if(GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_0))
@@ -50,7 +48,10 @@ void USART_TxData(void)
 {
   uint8_t i;
   uint8_t ADC_Data_8bit;
-  
+  static bool comp_rez;
+  static uint8_t j;
+  bool b, b1;
+  static bool b1_;
   
   for (i=0; i < ADC_BUFF_SIZE; i++)
   {
@@ -68,5 +69,31 @@ void USART_TxData(void)
       GPIO_ResetBits(GPIOB, GPIO_Pin_3);
       while(1);//trap
     }
+    
+    //Kostyl'
+    if(ADC_Data_8bit > ADC_COMPARE) b1 = 1;
+    else b1 = 0;
+    
+    b = (b1 ^ b1_) & (!b1_);
+    b1_ = b1;
+    if(b)
+    {
+      test_point_count[j] = point_count;
+      j++;
+      if(j>99)
+        j=0;  
+      
+      point_count = 0;
+      comp_rez = 1;
+    }
+    else
+    {
+      comp_rez = 0;
+    }
+    
+    point_count++;
+    
+   
   }
 }
+
