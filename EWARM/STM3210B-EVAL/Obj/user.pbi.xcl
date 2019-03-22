@@ -1,37 +1,37 @@
-"D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\user.c"
+"E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\user.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\EWARM\..
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\EWARM\..
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\EWARM\..\Libraries\CMSIS\CM3\CoreSupport
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\EWARM\..\Libraries\CMSIS\CM3\CoreSupport
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\EWARM\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\EWARM\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\EWARM\..\Libraries\STM32F10x_StdPeriph_Driver\inc
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\EWARM\..\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\inc
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\Libraries\CMSIS\CM3\CoreSupport
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\Libraries\CMSIS\CM3\CoreSupport
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
 -I
-D:\ARM_PROJECTS\STM32F103_Projects\ADC1_new_pcb1\Libraries\STM32F10x_StdPeriph_Driver\inc
+E:\ST\STM32F013C8T6B_BluePill\Projects\HeartRateMonitor_STM32F103\Libraries\STM32F10x_StdPeriph_Driver\inc
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
 -I
-C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -182,8 +182,8 @@ C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__JMP_BUF_ELEMENT_TYPE__=unsigned long long int
 -D__JMP_BUF_NUM_ELEMENTS__=8
 -D__TID__=0xcf60
--D__VER__=8032002
--D__BUILD_NUMBER__=178
+-D__VER__=8032003
+-D__BUILD_NUMBER__=193
 -D__IAR_SYSTEMS_ICC__=9
 -D_MAX_ALIGNMENT=8
 -D__LITTLE_ENDIAN__=1
@@ -260,8 +260,8 @@ C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__HAS_JOINED_TYPES__=1
 -D__HAS_LOCATED_DECLARATION__=1
 -D__HAS_LOCATED_WITH_INIT__=1
--D__IAR_COMPILERBASE__=656397
--D__IAR_COMPILERBASE_STR__=10.4.13.1134
+-D__IAR_COMPILERBASE__=656398
+-D__IAR_COMPILERBASE_STR__=10.4.14.1149
 -D__UNICODE_SOURCE_SUPPORTED__=1
 -D__VTABLE_MEM__=
 -D__PRAGMA_REDEFINE_EXTNAME=1
@@ -308,9 +308,9 @@ C:\Program Files\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -DUSE_STDPERIPH_DRIVER=1
 -DSTM32F10X_MD=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
--D__VERSION__="IAR ANSI C/C++ Compiler V8.32.2.178/W32 for ARM"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
+-D__VERSION__="IAR ANSI C/C++ Compiler V8.32.3.193/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8
 -D__CODE_MEMORY_LIST1__()=__CODE_MEM_HELPER1__(__code, 0 )

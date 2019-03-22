@@ -93,7 +93,7 @@ void USART_TxData(void)
     
     point_count++;
     
-   
+   //test
   }
 }
 
