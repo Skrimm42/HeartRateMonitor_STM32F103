@@ -84,13 +84,8 @@ void USART_TxData(void)
         j=0;  
       
       point_count = 0;
-      comp_rez = 1;
     }
-    else
-    {
-      comp_rez = 0;
-    }
-    
+
     point_count++;
     
    //test
